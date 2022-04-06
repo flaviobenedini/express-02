@@ -5,4 +5,4 @@ const port = 3000
 
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'views/index.html')))
 app.get('/sobre/', (req, res) => res.sendFile(path.join(__dirname, 'views/sobre.html')))
-app.listen(3000)
+app.listen(port, () => console.log(`Servidor rodando em ${port}`))
