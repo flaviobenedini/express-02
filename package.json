@@ -4,7 +4,8 @@
   "description": "Aprendendo a usar o Express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,9 @@
     "url": "https://github.com/flaviobenedini/express-02/issues"
   },
   "homepage": "https://github.com/flaviobenedini/express-02#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
   "dependencies": {
     "express": "^4.17.3"
   }
